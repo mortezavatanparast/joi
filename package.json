@@ -1,7 +1,7 @@
 {
-    "name": "joi",
+    "name": "m-joi",
     "description": "Object schema validation",
-    "version": "17.12.0",
+    "version": "1.0.9",
     "repository": "git://github.com/hapijs/joi",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -31,9 +31,6 @@
         "typescript": "^5.2.2"
     },
     "scripts": {
-        "prepublishOnly": "cd browser && npm install && npm run build",
-        "test": "lab -t 100 -a @hapi/code -L -Y",
-        "test-cov-html": "lab -r html -o coverage.html -a @hapi/code"
     },
     "license": "BSD-3-Clause"
 }
